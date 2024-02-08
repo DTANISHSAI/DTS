@@ -9,6 +9,7 @@
       padding: 0;
       background: url('background.jpeg') no-repeat center center fixed;
       background-size: cover;
+      color: #000000; /* Set default text color to black */
     }
 
     h1 {
@@ -59,11 +60,10 @@
     /* Copyright text */
     .copyright {
       text-align: center;
-      color: #ffffff;
-      margin-top: 20px;
-    }
-
-    .copyright span {
+      color: #000000; /* Set text color to black */
+      position: fixed;
+      bottom: 10px;
+      width: 100%;
       font-size: 14px;
     }
   </style>
@@ -104,7 +104,8 @@
 
   <!-- Copyright -->
   <div class="copyright">
-    <span>&copy; 2024 Tanishsai Dusanapudi. All rights reserved.</span>
+    <p>All rights reserved &copy; 2024 Tanishsai Dusanapudi</p>
   </div>
 </body>
 </html>
+
