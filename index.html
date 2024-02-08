@@ -1,88 +1,95 @@
 <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
+<head>
+  <title>Tanishsai Dusanapudi</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('background.jpeg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    h1 {
+      margin: 0;
+      color: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .marquee-container {
+      overflow: hidden;
+      background-color: rgba(230, 230, 250, 0.8);
+      border-radius: 20px;
+      padding: 3px;
+    }
+
+    .mixed-color {
+      background: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #80ff00, #00ff80, #00ffff, #0080ff, #0000ff, #8000ff, #ff00ff);
+      -webkit-background-clip: text;
+      color: transparent;
+      display: inline;
+    }
+
+    .dark-blue-color {
+      color: #00008b;
+    }
+
+    .task-bar {
+      background-color: rgba(255, 255, 255, 0.5); /* Translucent white color */
+      border-radius: 20px;
+      padding: 10px 20px;
+      margin: 20px auto; /* Center the task bar */
+      display: flex;
+      justify-content: center;
+      max-width: 80%; /* Limit the width of the task bar */
+    }
+
+    .task-bar a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #000; /* Set link color */
+    }
+
+    .task-bar a:hover {
+      color: #00008b; /* Change link color on hover */
+    }
+  </style>
+</head>
+<body>
+  <center>
+    <div class="marquee-container">
+      <h1>
+        <marquee behavior="scroll" direction="left">
+          Hello! This is <span class="mixed-color">Tanishsai Dusanapudi's</span> website.
+        </marquee>
+      </h1>
+    </div>
+  </center>
+  <hr>
   <br>
-  <head>
-	<link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add this line for the favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  </head>
-  <head>
-    <title>Tanishsai Dusanapudi</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon"> <!-- Add this line for the favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <style>
-      body {
-        margin: 0;
-        padding: 0;
-        background: url('background.jpeg') no-repeat center center fixed;
-        background-size: cover;
-      }
-
-      h1 {
-        margin: 0;
-        color: #ffffff; /* Set text color to be visible against the background */
-        text-align: center;
-        padding: 20px;
-      }
-
-      .marquee-container {
-        overflow: hidden;
-        background-color: rgba(230, 230, 250, 0.8); /* Light Lavender color with 0.8 opacity */
-        border-radius: 20px; /* Adjust the border-radius for the curved effect */
-        padding: 3px; /* Adjust padding for spacing between the text and the curved rectangle */
-      }
-
-      .mixed-color {
-        background: linear-gradient(to right, #ff0000, #ff8000, #ffff00, #80ff00, #00ff80, #00ffff, #0080ff, #0000ff, #8000ff, #ff00ff);
-        -webkit-background-clip: text;
-        color: transparent;
-        display: inline;
-      }
-
-      .dark-blue-color {
-        color: #00008b; /* Dark Blue color */
-      }
-
-      a.myself-link {
-        margin-left: 10cm; /* Set margin to position the link 10cm from the left */
-        text-decoration: none; /* Remove underline from the link */
-      }
-    </style>
-  </head>
-  <body>
-    <center>
-      <div class="marquee-container">
-        <h1>
-          <marquee behavior="scroll" direction="left">
-            Hello! This is <span class="mixed-color">Tanishsai Dusanapudi's</span> website.
-          </marquee>
-        </h1>
-      </div>
-    </center>
-	<hr>
-    <br>
-    <center>
-      <h2 class="dark-blue-color"><b>Welcome to my website!</b></h2>
-    </center>
-	<br>
-	<center>
-		<h2><i>Presently, I am doing B.Tech in GAYATHRI VIDYA PARISHAD College of Engineering.</i></h2>
-	</center>  
-	<center>
-		<h2><i>I am a student of the Computer Science Department.</i></h2>
-	</center>
-	<br>
-	<br>
-	<center>
-	<a href="Myself.html"><p><h3><i>My Videos</i></h3></p></a>
-	</center>
   <center>
-  <a href="https://dtanishsai.github.io/sports-cars/"><p><h3><i>My favourite cars</i></h3></p></a>
+    <h2 class="dark-blue-color"><b>Welcome to my website!</b></h2>
+  </center>
+  <br>
+  <center>
+    <h2><i>Presently, I am doing B.Tech in GAYATHRI VIDYA PARISHAD College of Engineering.</i></h2>
   </center>
   <center>
-    <a href = "hometown.html"><p><h3><i>My hometown</i></h3></p></a>
+    <h2><i>I am a student of the Computer Science Department.</i></h2>
   </center>
+  <br>
+  <br>
   <center>
-    <a href = "college.html"><p><h3><i>My college</i></h3></p></a>
+    <!-- Task bar for links -->
+    <div class="task-bar">
+      <a href="Myself.html"><h3><i>My Videos</i></h3></a>
+      <a href="https://dtanishsai.github.io/sports-cars/"><h3><i>My favourite cars</i></h3></a>
+      <a href="hometown.html"><h3><i>My hometown</i></h3></a>
+      <a href="college.html"><h3><i>My college</i></h3></a>
+    </div>
   </center>
-  </body>
+</body>
 </html>
