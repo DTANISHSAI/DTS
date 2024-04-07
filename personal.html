@@ -17,7 +17,7 @@
             </style>   
         </head>
         <script src="script.js"></script>
-        <h2>Enter a number:</h2>
+        <h2>Enter the year of your date of birth: </h2>
     <input type="number" id="inputNumber" placeholder="Enter the year of your date of birth: ">
     <button onclick="checkNumber()">Check</button>
     <div id="output"></div>
@@ -26,8 +26,7 @@
         function checkNumber() {
             var number = document.getElementById("inputNumber").value;
 
-            // Check if the number is greater than 10
-            if (number == 10) {
+            if (number === 10) {
                 document.getElementById("output").innerHTML = "Hi Nanna!, My warm greetings and wishes to you Nanna.";
             } else {
                 document.getElementById("output").innerHTML = "The given input value has no output values to display.";
